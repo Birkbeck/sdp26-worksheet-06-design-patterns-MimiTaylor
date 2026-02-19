@@ -20,4 +20,6 @@ public class TestPrototypePattern {
         user = new User("User C", "MANAGER Level", managerAccessControl);
         System.out.println(user);
     }
+
+
 }
