@@ -2,6 +2,12 @@ package builder;
 
 public class SportsCarBuilder implements CarBuilder{
 
+    private Car sportsCar;
+
+    public SportsCarBuilder(Car sportsCar) {
+        this.sportsCar = sportsCar;
+    }
+
     @Override
     public void buildBodyStyle() {
         // TODO: implement

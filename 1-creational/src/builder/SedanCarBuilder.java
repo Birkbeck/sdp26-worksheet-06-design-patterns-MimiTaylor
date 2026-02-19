@@ -2,9 +2,10 @@ package builder;
 
 public class SedanCarBuilder implements CarBuilder{
 
+    private Car SedanCar;
+
     @Override
     public void buildBodyStyle() {
-        // TODO: implement
     }
 
     @Override
