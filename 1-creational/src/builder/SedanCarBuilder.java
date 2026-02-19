@@ -2,45 +2,46 @@ package builder;
 
 public class SedanCarBuilder implements CarBuilder{
 
-    private Car SedanCar;
+    private Car SedanCar = new Car("Sedan Car");
 
     @Override
     public void buildBodyStyle() {
+        SedanCar.setBodyStyle("Sedan body style");
     }
 
     @Override
     public void buildPower(){
-        // TODO: implement
+        SedanCar.setPower("Sedan power");
     }
 
     @Override
     public void buildEngine() {
-        // TODO: implement
+        SedanCar.setEngine("Sedan engine");
     }
 
     @Override
     public void buildBreaks() {
-        // TODO: implement
+        SedanCar.setBreaks("Sedan breaks");
     }
 
     @Override
     public void buildSeats() {
-        // TODO: implement
+        SedanCar.setSeats("Sedan seats");
     }
 
     @Override
     public void buildWindows() {
-        // TODO: implement
+        SedanCar.setWindows("Sedan windows");
     }
 
     @Override
     public void buildFuelType() {
-        // TODO: implement
+        SedanCar.setFuelType("Sedan fuel type");
     }
 
     @Override
     public Car getCar(){
-        // TODO: implement
-        return null;
+        return SedanCar;
     }
 }
+

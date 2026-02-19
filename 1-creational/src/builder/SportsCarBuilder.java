@@ -2,50 +2,49 @@ package builder;
 
 public class SportsCarBuilder implements CarBuilder{
 
-    private Car sportsCar;
+    private Car sportsCar = new Car("Sports Car");
 
-    public SportsCarBuilder(Car sportsCar) {
-        this.sportsCar = sportsCar;
+    public SportsCarBuilder() {
+
     }
 
     @Override
     public void buildBodyStyle() {
-        // TODO: implement
+        sportsCar.setBodyStyle("Sports body style");
     }
 
     @Override
     public void buildPower(){
-        // TODO: implement
+        sportsCar.setPower("Sports power");
     }
 
     @Override
     public void buildEngine() {
-        // TODO: implement
+        sportsCar.setEngine("Sports engine");
     }
 
     @Override
     public void buildBreaks() {
-        // TODO: implement
+        sportsCar.setBreaks("Sports breaks");
     }
 
     @Override
     public void buildSeats() {
-        // TODO: implement
+        sportsCar.setSeats("Sports seats");
     }
 
     @Override
     public void buildWindows() {
-        // TODO: implement
+        sportsCar.setWindows("Sports windows");
     }
 
     @Override
     public void buildFuelType() {
-        // TODO: implement
+       sportsCar.setFuelType("Sports fuel type");
     }
 
     @Override
     public Car getCar(){
-        // TODO: implement
-        return null;
+        return sportsCar;
     }
 }
