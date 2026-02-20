@@ -2,18 +2,18 @@ package bridge;
 
 public class GearLocking implements Product {
 
+    String productName;
+
     public GearLocking(String productName) {
-        // TODO: implement
-    }
+        this.productName = productName;    }
 
     @Override
     public String productName() {
-        // TODO: implement
-        return null;
+        return productName;
     }
 
     @Override
     public void produce() {
-        // TODO: implement
+        System.out.println("Producing Gear Locking (inside GearLocking class).");
     }
 }
