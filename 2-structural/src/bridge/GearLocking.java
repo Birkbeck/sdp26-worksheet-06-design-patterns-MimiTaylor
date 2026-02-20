@@ -2,7 +2,7 @@ package bridge;
 
 public class GearLocking implements Product {
 
-    String productName;
+    String productName; // GearLocking IS-A product
 
     public GearLocking(String productName) {
         this.productName = productName;    }

@@ -2,7 +2,7 @@ package bridge;
 
 public abstract class Car {
 
-    protected final Product product;
+    protected final Product product; // Car HAS-A Product
     protected final String carType;
 
     public Car(Product product, String carType) {

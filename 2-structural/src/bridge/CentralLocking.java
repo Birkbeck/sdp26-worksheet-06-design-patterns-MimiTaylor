@@ -2,7 +2,7 @@ package bridge;
 
 public class CentralLocking implements Product {
 
-    String productName;
+    String productName; // CentralLocking IS-A product
 
     public CentralLocking(String productName) {
         this.productName = productName;
